@@ -1,0 +1,15 @@
+PROTEUS DESIGN SUITE PROJECT FILE (ARCHIVO DE EJEMPLO PARA LA CLASE)
+====================================================================
+Este NO es un .pdsprj real: es un marcador de posición para poder mostrar
+en vivo cómo trata Git a los archivos binarios.
+
+Circuito representado:
+  U1   PIC16F887, cristal 4 MHz + 2 x 22 pF
+  D1   LED rojo      -> RB0 con R = 330 ohm
+  D2   LED amarillo  -> RB1 con R = 330 ohm
+  D3   LED verde     -> RB2 con R = 330 ohm
+  DIS1 Display doble 7 segmentos cátodo común -> RD0..RD6
+       Ánodos multiplexados por RC0 (decenas) y RC1 (unidades)
+  SW1  Pulsador de cruce peatonal -> RA0, pull-up de 10 kohm
+
+Revisión: 4     Última modificación: simulación con display multiplexado
