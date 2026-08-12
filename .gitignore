@@ -1,0 +1,36 @@
+# --- Salidas del compilador (se regeneran solas, no se suben) ---
+build/
+dist/
+*.hex
+*.cof
+*.lst
+*.map
+*.o
+*.err
+
+# --- MPLAB X ---
+nbproject/private/
+nbproject/Package-*.bash
+.generated_files/
+
+# --- Proteus ---
+# Los backups y temporales se ignoran.
+# El .pdsprj del proyecto SÍ se versiona: ver sim/README.md
+*.pdsbak
+*.pwi
+Backup Of *.pdsprj
+Last Loaded *.pdsprj
+
+# --- Office (informe) ---
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# --- Sistema operativo ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Editores ---
+.vscode/
+*.swp
