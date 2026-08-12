@@ -29,9 +29,7 @@ Lo que falta está cargado como issues. El tablero está en la pestaña **Projec
 ```
 .
 ├── README.md               ← lo primero que se ve al abrir el repo
-├── COMO-TRABAJAMOS.md      ← acuerdos del equipo: commits, issues, tablero
 ├── .gitignore              ← lo que no se sube
-├── .gitattributes          ← qué archivos Git trata como binarios
 ├── src/                    ← código fuente
 │   ├── main.asm
 │   └── inc/
@@ -44,12 +42,11 @@ Lo que falta está cargado como issues. El tablero está en la pestaña **Projec
 │   └── capturas/
 ├── hardware/               ← conexiones y esquemático
 │   └── conexiones.md
-├── docs/                   ← documentación e informe
-│   ├── bitacora.md
-│   ├── glosario-git.md
-│   ├── checklist-buenas-practicas.md
-│   └── plantilla-issue.md
-└── .github/                ← plantillas de issues y de pull request
+└── docs/                   ← documentación e informe
+    ├── bitacora.md
+    ├── glosario-git.md
+    ├── checklist-buenas-practicas.md
+    └── plantilla-issue.md
 ```
 
 Regla general: el código va en `src/` y **lo que genera el compilador nunca se sube**
